@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    display: none;
+}
+
+.main_page {
+    display: grid;
+    max-width: fit-content;
+    margin: auto;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.blue {
+    width: 285px;
+    height: 58px;
+    background-color: #1958DB;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.white {
+    border: 2px solid #1958DB;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: white;
+    width: 285px;
+    height: 58px;
+    color: #1958DB;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin: auto;
+}
+
+.auth_page {
+    display: grid;
+    max-width: fit-content;
+    margin: auto;
+    row-gap: 30px;
+    margin-bottom: 100px;
+}
+
+a {
+    text-align: center;
+}
+
+.registration_page {
+    display: grid;
+    max-width: fit-content;
+    margin: auto;
+    row-gap: 30px;
+    
+}
+
+.showPage {
+    display: grid !important;
+}
