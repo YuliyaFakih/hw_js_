@@ -6,7 +6,6 @@
 .container {
     max-width: 80%;
     margin: auto;
-    display: none;
 }
 
 .main_page {
@@ -15,6 +14,7 @@
     margin: auto;
     row-gap: 30px;
     margin-bottom: 100px;
+    display: none;
 }
 
 .blue {
@@ -29,6 +29,22 @@
     line-height: 29px;
     color: #FFFFFF;
     margin: auto;
+    border-color: #1958DB;
+    box-sizing: border-box;
+    border: 2px solid #1958DB;
+    cursor: pointer;
+    box-shadow: 0 0 40px 40px #1958DB inset, 0 0 0 0 #1958DB;
+    transition: all 150ms ease-in-out;
+}
+
+.blue:hover {
+    box-shadow: 0 0 10px 0 #1958DB, 0 0 10px 4px #1958DB;
+    background-color: #f2f1f831;
+    color: #1958DB;
+}
+
+.blue:focus {
+    outline: none;
 }
 
 .white {
@@ -45,6 +61,19 @@
     font-size: 24px;
     line-height: 29px;
     margin: auto;
+    border-color: #1958DB;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+}
+
+.white:hover {
+    
+    background-color: #1958DB;
+    color: #fff;
+}
+
+.white:focus {
+    outline: none;
 }
 
 .auth_page {
@@ -53,6 +82,8 @@
     margin: auto;
     row-gap: 30px;
     margin-bottom: 100px;
+    display: none;
+    padding-top: 50px;
 }
 
 a {
@@ -64,7 +95,8 @@ a {
     max-width: fit-content;
     margin: auto;
     row-gap: 30px;
-    
+    display: none;
+    padding-top: 50px;
 }
 
 .showPage {
